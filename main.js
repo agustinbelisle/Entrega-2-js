@@ -1,8 +1,7 @@
+
 const pizzasIdImpar = pizzas.filter(pizza => pizza.id % 2 !== 0);
 console.log("Pizzas con ID impar:");
 console.log(pizzasIdImpar);
-
-
 
 const pizzaMenor600 = pizzas.some(pizza => pizza.precio < 600);
 console.log("¿Hay alguna pizza que valga menos de $600?");
